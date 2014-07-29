@@ -1,3 +1,57 @@
-@import url('');
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+body{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 15px;
+}
+
+header{
+  height: 150px;
+  background-image: url(/images/bg-stars.jpg);
+  background-size: cover;
+}
+
+nav{
+  margin-top: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+section{
+  padding: 10px;
+}
+
+#container{
+  width: 700px;
+  margin: 20px auto;
+}
+
+#main{
+  border: 1px solid black;
+  width: 700px;
+  margin: 10px;
+}
+
+.date{
+  font-size: 16px;
+  color: black;
+}
+
+.location{
+  font-size: 16px;
+  color: blue;
+}
+
+footer{
+  padding: 10px;
+}
 
 
